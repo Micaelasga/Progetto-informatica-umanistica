@@ -1,22 +1,96 @@
 header {
-	text-align: right;
-	/*background: url(../images/bianco.jpg;);*/
+	text-align: left;
+	/*background: url(../images/bianco.jpg;);
 	background-color: lime;
-	background-position: center center;
+	background-position: 50px 50px;
 	height: 15vh;
 	width: auto;
 	opacity: 0.5;
 } 
 
+
+header {
+	position:relative;
+	height: 100%;
+	background:#fff url(firstpagehome.jpg) no-repeat center center;
+	background-size: cover;
+	box-shadow:inset 0 -1px 5px rgba(0,0,0,0.6);
+}
+
 header:hover {
 	background-color: lime;
 	background-attachment: scroll;
-	opacity: 1 !important;
+	opacity: 1 !important;*/
 }
 
-#homeicon {
+#backgroundnav {
+	height: 15vh;
+	width: 100vw;
+	opacity: 0.5;
+}
+
+/* #backgroundnav:hover {
+	background-color: white;
+	background-attachment: scroll;
+	opacity: 1 !important;
+}*/
+
+nav ul li {display: inline-block;} 
+
+.navlink {color: #ffffff;}
+
+nav ul {list-style-type: none;}
+ 
+ .navlink:hover {text-decoration: blink;}
+
+header {
+	height: 100%;
+	width: 100%;
+	background: #e0da48 url(../images/firstpagehome.jpg) no-repeat center;
+	background-size:cover;
+}
+
+nav {
+	float: right;
+	margin: 0px auto;
+
+	text-align: right;
+}
+
+html,body {
+	height: 100%;
+}
+
+#Payoff {
+		position: absolute;
+		top: 300px;
+		font-size: 800vh;
+
+} 
+
+#Baseline {
+		position: absolute;
+		top: 400px;
+		right: 900px;
+		font-size: 3.5vh;
+}
+
+#Payoff {font-family: 'Oleo Script Swash Caps', cursive;}
+
+#Baseline {font-family: 'Josefin Sans', sans-serif !important;}
+
+
+
+
+
+/* Regole per IE8 */
+/* header {
+		background-position: top center;
+}
+
+/*#homeicon {
 	font-size: 25px;
-	opacity: none !important;
+	opacity:  !important;
 }
 
 body {
@@ -24,4 +98,4 @@ body {
 	font-weight:400;
 	font-style:normal;
 	font-size:12px;
-} 
+} */
