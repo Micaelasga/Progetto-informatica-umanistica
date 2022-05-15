@@ -1,6 +1,8 @@
 
 
 header {
+	height: 100%;
+	width: 100%;
 	text-align: left;
 	height: 100%;
 	width: 100%;
@@ -13,13 +15,20 @@ html,body {
 	height: 100%;
 }
 
-nav {
+.backgroundnav {
 	background-color: rgb(255, 255, 255, 0.6); /*invece di usare comando opacity, ho usato Opacità con rgba così che l'op non fosse ereditata da elementi figli*/
 	height: 13vh;
 	width: 100vw;
 	float: right;
 	margin: 0px auto;
 	text-align: right;
+	position: fixed;
+}
+
+
+#homeicon {
+	font-size: 1.3em;
+	padding-left: 0.4em;
 }
 
 nav ul {
@@ -27,6 +36,8 @@ nav ul {
 	opacity: 1 !important;
 	margin-bottom: 0px !important;
 	padding-left: 0px !important;
+	
+	
 }
 
 nav ul li {
@@ -40,34 +51,42 @@ nav ul li {
 
 }
 
+
  .navlink:hover {
  	color: black;
  	text-decoration: blink;
- 	padding: 0.2em 0.1em;
+ 	/*padding: 0.2em 0.1em;*/
 }
 
 .navlista:hover {
 	background-color: white;
-	padding: 0.1em 2.2em;
-	padding: 0.1em 0.1em;
+
+	/*padding: 0.1em 0.1em;*/
 }
 
 
+body {
+	text-align: right;
+}
+
 #Payoff {
-		position: absolute;
-		top: 300px;
+		padding-left: 0.4em;
+		padding-top: 5em;
 		font-family: 'Oleo Script Swash Caps', cursive;
-		font-size: 800vh;
+		font-size: 60px ;
+		
 		
 
 } 
 
 #Baseline {
 		position: absolute;
-		top: 400px;
+		padding-left: 0.9em;
+		padding-top: 5em;
+		top: 290px;
 		right: 900px;
 		font-family: 'Josefin Sans', sans-serif !important;
-		font-size: 3.5vh;
+		font-size: 30px
 }
 
 
