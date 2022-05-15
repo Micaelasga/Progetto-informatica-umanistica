@@ -44,31 +44,54 @@ html,body {
 }
 
 nav {
-	background: url(../images/bianco.jpg);
+	background-color: rgb(255, 255, 255, 0.6); /*invece di usare comando opacity, ho usato Opacità con rgba così che l'op non fosse ereditata da elementi figli*/
 	background-attachment: scroll;
-	height: 15vh;
+	height: 13vh;
 	width: 100vw;
-	opacity: 0.6;
 	float: right;
 	margin: 0px auto;
-	text-align: right;
+	
 }
 
 nav ul {
+	position: relative;
+	top: 1.5vh;
+	left: -0.3vh;
 	list-style-type: none;
+	opacity: 1 !important;
+	margin-bottom: 0px !important;
+	padding-left: 0px !important;
 }
 
 nav ul li {
 	display: inline-block;
+
+
 	
 } 
 
 .navlink {
 	color: black;
-	opacity: 1 !important;
+	font-size: 1.4em;
+	padding: 0.1em 2.2em;
+
 }
 
- .navlink:hover {text-decoration: blink;}
+ .navlink:hover {
+ 	color: black;
+ 	text-decoration: blink;
+
+ 	padding: 0.2em 0.1em;
+
+}
+
+.navlista:hover {
+	background-color: white;
+	/*padding: 0.2em 0.1em;*/
+		padding: 0.1em 2.2em;
+
+
+}
 
 
 #Payoff {
