@@ -1,21 +1,22 @@
 html, body {
 	width: 100%;
-	height: 100%; /il 100% fa sì che l'immagine si estanda su tutta l'aria visibile della fnestra/
+	height: 100%; /*il 100% fa sì che l'immagine si estanda su tutta l'aria visibile della fnestra*/
 	margin: 0px;
 	padding: 0px;
-	overflow: visible; /overflow specifica cosa dovrebbe succedere se l contenuto supera il box contenitore/
+	overflow: visible; /*overflow specifica cosa dovrebbe succedere se l contenuto supera il box contenitore*/
+	font-family: 'Josefin Sans', sans-serif;
 }
-
 
 header {
 	text-align: left;
 	background: #e0da48 url(../images/firstpagehome.jpg) no-repeat center;
 	background-size:cover;
 	height: 100%;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
-	font-family: 'Josefin Sans', sans-serif !important;
+	font-family: 'Josefin Sans', sans-serif ;
 	font-weight: ....;
 	font-style: ....;
 	font-size: ...;
@@ -28,7 +29,6 @@ body {
 
 nav ul { list-style-type: none;}
 
-
 nav ul li {
 	display: inline-block;
 	padding-top: 1em;
@@ -38,7 +38,6 @@ nav ul li {
 } 	
 
 #navartisti {padding-right: 3em !important;}
-
 
 .navlink {
 	color: black;
@@ -50,7 +49,6 @@ nav ul li {
  	text-decoration: underline;
 }
 
-
 #backgroundnav {
 	margin: 0px auto;
 	text-align: right !important;
@@ -58,4 +56,31 @@ nav ul li {
 	height: 13vh;
 	width: 100%;
 	position: fixed;  /*grazie a fixed il nav segue lo scroll. Attenzione: è come se l'elemento ora uscisse dal flusso, quindi gli elementi non stanno più sotto*/
+}
 
+#payoff {
+	font-family: 'Oleo Script Swash Caps', cursive;
+	font-size: 60px ;
+	padding-left: 0.4em;
+	padding-top: 5em;
+}
+
+
+#baseline {
+	position: absolute;
+	padding-left: 0.9em;
+	padding-top: 3em;
+	top: 290px;
+	right: 840px;
+	font-size: 30px;
+}
+
+
+#frecciaheader {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+
+#frecciaheader a {color: black;}
