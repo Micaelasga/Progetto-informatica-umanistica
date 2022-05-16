@@ -80,7 +80,26 @@ nav ul li {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+	font-size: 1.5em;
 }
 
 
 #frecciaheader a {color: black;}
+
+
+h1 {
+	font-size: 1em;
+}
+
+
+#logo a {
+	float: left;
+	max-width: 25% !important;
+	padding: 15px;
+}
+
+
+#immaginelogo { 
+	float: left;
+	max-width: 25% !important;
+}
