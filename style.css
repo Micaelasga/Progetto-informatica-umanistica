@@ -58,6 +58,18 @@ nav ul li {
 	position: fixed;  /*grazie a fixed il nav segue lo scroll. Attenzione: è come se l'elemento ora uscisse dal flusso, quindi gli elementi non stanno più sotto*/
 }
 
+#logo a {
+	float: left;
+	max-width: 25% !important;
+	padding: 15px;
+}
+
+
+#immaginelogo { 
+	float: left;
+	max-width: 25% !important;
+}
+
 #payoff {
 	font-family: 'Oleo Script Swash Caps', cursive;
 	font-size: 60px ;
@@ -87,19 +99,30 @@ nav ul li {
 #frecciaheader a {color: black;}
 
 
-h1 {
-	font-size: 1em;
+#contenuti {background-color: #e0da48;}
+
+#logotipo { max-width: 8%;
+
 }
 
 
-#logo a {
-	float: left;
-	max-width: 25% !important;
-	padding: 15px;
+#testo {
+	
 }
 
-
-#immaginelogo { 
-	float: left;
-	max-width: 25% !important;
+.btn {
+  display: inline-block;
+  padding: 3px 6px;
+  background-color: black;
+  color: #fffff8;
+  border: 1px solid #222;
+  border-radius: 3px;
+  text-decoration: none;
+  
+  font-size: 12px;
+  cursor: pointer;
 }
+
+.linkbtn {font-family: 'Josefin Sans', sans-serif;}
+
+
