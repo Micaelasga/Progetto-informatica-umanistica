@@ -61,9 +61,15 @@ nav ul li {
 	padding: 1%;
 }
 
+.breadcrumb {background-color: #e0da48 !important;}
+
+.breadcrumb-item {color: black !important;}
+
+.breadcrumb a {color: black;}
+
 main h1 {
-	padding-top: 5vh;
-} /*non ha preso l'istruzione del font*/
+	padding-top: 3vh;
+} /* da risolvere: non ha preso l'istruzione del font*/
 
 #domande {
 	padding-top: 5vh;
