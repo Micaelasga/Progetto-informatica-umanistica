@@ -1,25 +1,22 @@
 html, body {
-	width: 100%;
-	height: 100%; /*il 100% fa sì che l'immagine si estanda su tutta l'aria visibile della fnestra*/
+	max-width: 100%;
+	height: 100%; /*il 100% fa sì che l'immagine si estanda su tutta l'aria visibile della finestra*/
 	margin: 0px;
 	padding: 0px;
-	overflow: visible; /*overflow specifica cosa dovrebbe succedere se l contenuto supera il box contenitore*/
+	overflow: visible; /*overflow specifica cosa dovrebbe succedere se il contenuto supera il box contenitore*/
 	font-family: 'Josefin Sans', sans-serif !important;
 }
 
 header {
 	text-align: left;
 	background: #e0da48 url(../images/firstpagehome.jpg) no-repeat center;
-	background-size:cover;
+	background-size: 100% 100%; 
 	height: 100%;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
 	font-family: 'Josefin Sans', sans-serif ;
-	font-weight: ....;
-	font-style: ....;
-	font-size: ...;
 }
 
 #homeicon {
@@ -67,14 +64,14 @@ nav ul li {
 
 #payoff {
 	font-family: 'Oleo Script Swash Caps', cursive;
-	font-size: 55px ;
+	font-size: 3.7vw ;
 	padding-left: 0.4em;
 	padding-top: 28vh;
 }
 
 
 #baseline {
-	font-size: 30px;
+	font-size: 2vw;
 	padding-left: 0.9em;
 }
 
@@ -99,7 +96,6 @@ nav ul li {
 
 #abstract {font-size: 2vw;}
 
-#abstract {;}
 
 #btn {
 	display: inline-block;
