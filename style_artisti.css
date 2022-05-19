@@ -62,6 +62,10 @@ nav ul li {
 	padding: 1%;
 }
 
+#contenuti {background: #e0da48 url(../images/artisti.jpg);
+	background-attachment:fixed;
+}
+
 .breadcrumb {background-color: #e0da48 !important;
 }
 
