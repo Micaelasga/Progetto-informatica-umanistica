@@ -19,6 +19,7 @@ body {
 	font-family: 'Josefin Sans', sans-serif ;
 }
 
+
 #homeicon {
 	font-size: 1.5vw;
 	padding: 2px 3px;
@@ -49,7 +50,7 @@ nav ul li {
 #backgroundnav {
 	margin: 0px auto;
 	text-align: right !important;
-	background-color: rgb(255, 255, 255, 0.6); /invece di usare comando opacity, ho usato Opacità con rgba così che l'op non fosse ereditata da elementi figli/
+	background-color: rgb(255, 255, 255, 0.6); /*invece di usare comando opacity, ho usato Opacità con rgba così che l'op non fosse ereditata da elementi figli*/
 	height: 15vh;
 	width: 100%;
 	position: fixed;  /*grazie a fixed il nav segue lo scroll. Attenzione: è come se l'elemento ora uscisse dal flusso, quindi gli elementi non stanno più sotto*/
@@ -124,10 +125,46 @@ nav ul li {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-.morepadding {
+.morepaddinga {
 	padding-top: 9%;
 	padding-right: 2%;
 }
+
+#pagina2 {
+	padding-top: 9%;
+	padding-bottom: 4%;}
+
+footer {color: white;}
+
+.linkfooter {
+	color: white;
+	text-decoration: none;
+}
+
+.linkfooter:hover {color: white;}
+
+
+footer {
+	background-color: black;
+}
+
+#footericon {
+	padding-left: 1vw;
+}
+
+#iconesocial {
+	padding-left: 1vw;
+	color: white;
+	width: 1%; /*perchè width mi controlla la distanza tra icone, invece che la grandezza?*/
+}
+
+#iconesocial2 {
+	color: white;
+}
+
+#testofooter {padding-top: 1em;}
+
+.lesspadding {margin-bottom: 0px !important; }
 
 
 
