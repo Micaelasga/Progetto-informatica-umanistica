@@ -87,7 +87,7 @@ main h1 {
 
 .morepadding {padding: 4%;}
 
-#aggiungi {
-	padding-left: 2%;}
+/*#aggiungi {
+	padding-left: 2%;} /*da togliere in tutti i file*/
 
 /*da risolvere: header non si sovrappone alle card*/
