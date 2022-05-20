@@ -52,7 +52,7 @@ nav ul li {
 	background-color: rgb(255, 255, 255, 0.6); /*invece di usare comando opacity, ho usato Opacità con rgba così che l'op non fosse ereditata da elementi figli*/
 	height: 15vh;
 	width: 100%;
-	position: fixed;  /*grazie a fixed il nav segue lo scroll. Attenzione: è come se l'elemento ora uscisse dal flusso, quindi gli elementi non stanno più sotto*/
+	position: static;  /*grazie a static il nav non segue più lo scroll. */
 }
 
 #immaginelogo { 
@@ -65,10 +65,12 @@ nav ul li {
 
 .breadcrumb-item {color: black !important;}
 
-.breadcrumb a {color: black;}
+.breadcrumb a {color: black !important;}
 
 main h1 {
-	padding-top: 3vh;
+	padding-top: 2vh;
+	padding-left: 2vw;
+	font-size: 3.5vw;
 } /* da risolvere: non ha preso l'istruzione del font*/
 
 #domande {
@@ -87,3 +89,34 @@ main h1 {
 #risposta7 {padding-bottom:2.7%}
 
 #risposta8 {padding-bottom:3.3%}
+
+footer {
+	color: white;
+	background-color: black;
+}
+
+.linkfooter {
+	color: white;
+	text-decoration: none;
+}
+
+.linkfooter:hover {color: white;}
+
+
+#footericon {
+	padding-left: 1vw;
+}
+
+#iconesocial {
+	padding-left: 1vw;
+	color: white;
+	 /*perchè width mi controlla la distanza tra icone, invece che la grandezza?*/
+}
+
+#iconesocial2 {
+	color: white;
+}
+
+#testofooter {padding-top: 1em;}
+
+.lesspadding {margin-bottom: 0px !important; }
