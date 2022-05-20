@@ -38,6 +38,7 @@ nav ul li {
 #navartisti {padding-right: 3em !important;}
 
 .navlink {
+
 	color: black;
 	text-decoration: none; 
 }
@@ -134,7 +135,10 @@ nav ul li {
 	padding-top: 9%;
 	padding-bottom: 4%;}
 
-footer {color: white;}
+footer {
+	color: white;
+	background-color: black;
+}
 
 .linkfooter {
 	color: white;
@@ -144,10 +148,6 @@ footer {color: white;}
 .linkfooter:hover {color: white;}
 
 
-footer {
-	background-color: black;
-}
-
 #footericon {
 	padding-left: 1vw;
 }
@@ -155,7 +155,7 @@ footer {
 #iconesocial {
 	padding-left: 1vw;
 	color: white;
-	width: 1%; /*perchè width mi controlla la distanza tra icone, invece che la grandezza?*/
+	 /*perchè width mi controlla la distanza tra icone, invece che la grandezza?*/
 }
 
 #iconesocial2 {
