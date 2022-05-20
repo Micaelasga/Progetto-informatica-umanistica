@@ -9,14 +9,14 @@ html, body {
 
 header {
 	text-align: left;
-	background-color: #e0da48;
+	background-color: black;
 	background-size:cover;
 	height: 100%;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
 body {
-	background-color: #e0da48 !important;
+	background-color: black !important;
 	font-family: 'Josefin Sans', sans-serif !important;
 }
 
@@ -71,7 +71,8 @@ nav ul li {
 
 .breadcrumb-item {color: black !important;}
 
-.breadcrumb a {color: black;}
+
+.breadcrumb a {color: black !important;}
 
 main h1 {
 	padding-top: 3vh;
@@ -85,3 +86,34 @@ main h1 {
 }
 
 .lista {padding: 1%;}
+
+footer {
+	color: white;
+	background-color: black;
+}
+
+.linkfooter {
+	color: white;
+	text-decoration: none;
+}
+
+.linkfooter:hover {color: white;}
+
+
+#footericon {
+	padding-left: 1vw;
+}
+
+#iconesocial {
+	padding-left: 1vw;
+	color: white;
+	 /*perchè width mi controlla la distanza tra icone, invece che la grandezza?*/
+}
+
+#iconesocial2 {
+	color: white;
+}
+
+#testofooter {padding-top: 1em;}
+
+.lesspadding {margin-bottom: 0px !important; }
