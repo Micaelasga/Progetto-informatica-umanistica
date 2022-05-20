@@ -1,0 +1,118 @@
+
+
+html, body {
+	height: 17vh; /*mistero della fede:se tolgo questo non funziano i link*/
+	margin: 0px;
+	padding: 0px;
+		color: white !important;
+	
+}
+
+header {
+	text-align: left;
+	background-color: black;
+	background-size:cover;
+	height: 100%;
+	font-family: 'Josefin Sans', sans-serif;
+		color: black;
+}
+
+body {
+	background-color: black !important;
+	font-family: 'Josefin Sans', sans-serif !important;
+
+}
+
+#homeicon {
+	font-size: 1.5vw;
+	padding: 2px 3px;
+}
+
+nav ul { list-style-type: none;}
+
+nav ul li {
+	display: inline-block;
+	padding-top: 1em;
+	padding-bottom: 2% ; /*aggiusta in index*/
+	padding-left: 4.5em;
+	font-size: 1.3vw;
+} 	
+
+#navartisti {padding-right: 3em !important;}
+
+.navlink {
+	color: black;
+	text-decoration: none; 
+}
+
+.navlink:hover {
+ 	color: black;
+ 	text-decoration: underline;
+}
+
+#backgroundnav {
+	margin: 0px auto;
+	text-align: right !important;
+	background-color: rgb(255, 255, 255, 0.6); /*invece di usare comando opacity, ho usato Opacità con rgba così che l'op non fosse ereditata da elementi figli*/
+	height: 15vh;
+	width: 100%;
+	position: fixed;  /*grazie a fixed il nav segue lo scroll. Attenzione: è come se l'elemento ora uscisse dal flusso, quindi gli elementi non stanno più sotto*/
+}
+
+#immaginelogo { 
+	float: left;
+	max-width: 8% !important;
+	padding: 1%;
+}
+
+
+
+.breadcrumb {background-color: black!important;
+}
+
+.breadcrumb-item {color: white !important;}
+
+.breadcrumb a {color: white !important;}
+
+
+#titolo {
+	font-size: 7vw;
+	text-align: center;
+}
+
+.contenuti {padding: 2vw;}
+
+.blocco {padding: 2vw;}
+
+footer {
+	color: white;
+	background-color: black;
+}
+
+.linkfooter {
+	color: white;
+	text-decoration: none;
+}
+
+.linkfooter:hover {color: white;}
+
+
+#footericon {
+	padding-left: 1vw;
+}
+
+#iconesocial {
+	padding-left: 1vw;
+	color: white;
+	width: 1%; /*perchè width mi controlla la distanza tra icone, invece che la grandezza?*/
+}
+
+#iconesocial2 {
+	color: white;
+}
+
+#testofooter {padding-top: 1em;}
+
+.lesspadding {margin-bottom: 0px !important; }
+
+
