@@ -22,11 +22,11 @@
  	<body> <!-- se inserisco qui "class="container-fluid" mi sballa tutto, quindi lo inserisco a main-->
 	 	<header>
 			<section id="backgroundnav">
-				<h1 id="logo"><a href="index.html" title="torna alla homepage"><img id="immaginelogo" src="images/logosito.png" alt="logo del sito con banda musicale"/></a></h1> 
+				<a href="index.html" title="torna alla homepage"><img id="immaginelogo" src="images/logosito.png" alt="logo del sito con banda musicale"/></a> 
 				<i id="homeicon" class="fa-solid fa-user"></i>
 				<i id="homeicon" class="fa-solid fa-magnifying-glass"></i>
 				<nav>
-					<ul>
+					<ul id="meno">
 						<li class="navlista"> <a class="navlink" href="canzoni_tradizionali.html">CANZONI TRADIZIONALI</a></li>
 						<li id="navartisti" class="navlista"> <a class="navlink" href="artisti.html">ARTISTI</a></li>
 					</ul>
@@ -1136,10 +1136,10 @@
 				<!--FINE BOTTONE AGGIUNGI-->
 			</section>
 	 	</main>
-	 		 	<footer>
-	 		<section id="testofooter" class="row row-cols-sm-6 row-cols-md-3">
+		<footer>
+	 		<section id="testofooter" class="row row-cols-sm-6 row-cols-md-3"/>
 	 			<section class="col-sm-6 col-md-3">
-	 				<p>
+	 				<p class="destra">
 	 					<a class="linkfooter" href="chisiamo.html">Chi siamo</a>
 	 				</p>
 	 			</section>
@@ -1159,9 +1159,9 @@
 	 		</section>
 	 		<section class="row row-cols-sm-6 row-cols-md-3"> <!-- visto che sono solo 3 le colonne andrebbe col-4 ma, per motivi di disegn, inseriamo col-4-->
 	 		<section class="col-sm-6 col-md-3"> 
-	 				<p class="lesspadding">Trovaci su:</p>
-	 				<a href="https://www.facebook.com/MusicTripit-111419734906421"><i id="iconesocial" class="fa-brands fa-facebook-square"></i></a>  <!--dovea essere class=iconesocial, ma dando una classe non mi ascoltava le istruzioni-->
-	 				<a href="https://www.instagram.com/musictrip.it/"><i id="iconesocial" class="fa-brands fa-instagram-square"></i></a> 
+	 				<p class="destra" class="lesspadding">Trovaci su:</p>
+	 				<a class="destra" href="https://www.facebook.com/MusicTripit-111419734906421"><i id="iconesocial" class="fa-brands fa-facebook-square"></i></a>  <!--dovea essere class=iconesocial, ma dando una classe non mi ascoltava le istruzioni-->
+	 				<a class="destra" href="https://www.instagram.com/musictrip.it/"><i id="iconesocial" class="fa-brands fa-instagram-square"></i></a> 
 	 			</section>
 	 			<section class="col-sm-6 col-md-3"> 
 	 				<p class="lesspadding"> Condivi su:</p>
@@ -1181,11 +1181,7 @@
 	 				<h9>Contattaci:</h9>
 	 				<p>info@gmail.com</p>
 	 			</section>
-	 			<section class="col-sm-6 col-md-3">
-	 				<p>
-	 					<a class="linkfooter" href="documentazione.html">Documentazione</a>
-	 				</p>
 	 		</section>
-	 	</footer>			
+	 	</footer>
 	</body>
 </html>
